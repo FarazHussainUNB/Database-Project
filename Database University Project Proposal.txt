@@ -1,0 +1,29 @@
+                  **Group Members:**
+Faraz Hussain: ID 3788116 | Cameron Steeves: ID 3757127
+
+
+                   **Application:**
+- Title: University Course Enrollment System
+- Description:
+  This project models a University Database. It will track students, instructors, departments, courses, and enrollment information.
+  
+- Entities:
+  - Student (ID, name, tot_cred)
+  - Instructor (ID, name, salary)
+  - Department (dept_name, building, budget)
+  - Course (course_id, title, credits)
+  - Section (sec_id, semester, year, course_id)
+  - Time_Slot (time_slot_id, day, start_time, end_time)
+  - Classroom (building, room_number, capacity)
+  
+- Relationships:
+  - advisor (Student–Instructor)
+  - teaches (Instructor–Section)
+  - takes (Student–Section)
+  - sec_time_slot (Section–Time_Slot)
+  - sec_class (Section–Classroom)
+  - prereq (Course–Course)
+  - stud_dept, inst_dept, course_dept (links to Department)
+
+**GitHub Repository:**
+- https://github.com/FarazHussainUNB/Database-Project
